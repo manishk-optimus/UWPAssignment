@@ -1,0 +1,68 @@
+﻿<Page x:Class="UWPAssignment.Views.DescriptionPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:local="using:UWPAssignment.Views"
+      xmlns:vm="using:UWPAssignment.ViewModels"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+      mc:Ignorable="d">
+
+    <Page.DataContext>
+        <vm:DescriptionViewModel />
+    </Page.DataContext>
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+            <Border BorderThickness="10,10,10,10"
+                    BorderBrush="#0B4A58" />
+            <GridView x:ConnectionId='1' x:Name="grdView"
+                      Margin="0,0,0,584"
+                      SelectionMode="None"
+                      IsItemClickEnabled="true"
+                      IsSwipeEnabled="false"
+                      Background="#0B4A58"
+                      RenderTransformOrigin="0.489,-1.684">
+                <Viewbox Height="56">
+                    <ContentPresenter Content="HALDIRAM"
+                                      Margin="10"
+                                      Foreground="White"
+                                      Height="22" />
+                </Viewbox>
+                <Button Command="{Binding BackButtonCommand}" 
+                        Content="Back"
+                        Foreground="White"
+                        Background="Black"/>
+
+            </GridView>
+            <GridView 
+                      Margin="10,70,0,0">
+                <StackPanel Margin="0,100,0,0">
+                    <StackPanel Orientation="Horizontal"
+                                Height="105">
+                        <Viewbox Width="255">
+                            <ContentPresenter FontSize="150"
+                                              Content="{Binding MenuClick.Name}"
+                                              Margin="0,0,250,0" />
+                        </Viewbox>
+                        <TextBlock FontSize="25"
+                                   Text="Rs"
+                                   Width="74"
+                                   Margin="0,10" />
+                        <Viewbox Width="62"
+                                 Margin="0,10">
+                            <ContentPresenter FontSize="5"
+                                              Content="{Binding MenuClick.Price}"
+                                              Margin="0,0,0,0" />
+                        </Viewbox>
+                    </StackPanel>
+                    <Image Source="{Binding MenuClick.ImageSource}"
+                           Height="196" />
+                    <Viewbox Height="63">
+                        <ContentPresenter  Content="{Binding MenuClick.Description}"
+                                           Margin="10" />
+                    </Viewbox>
+                </StackPanel>
+            </GridView>
+        </Grid>
+    </Grid>
+</Page>
+
