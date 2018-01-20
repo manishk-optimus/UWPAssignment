@@ -16,19 +16,21 @@ namespace UWPAssignment.ViewModels
     public class DescriptionViewModel:ViewModelBase
     {
         private MenuModel _searchedItem;
-        MenuData data = new MenuData();
+        private MenuData _data = new MenuData();
         private string _name;
+        private RelayCommand _backButtonCommand { get; set;}
 
         public DescriptionViewModel()
         {
-            MessengerInstance.Register<NotificationMessage>(this, NotifyMe);
+            MessengerInstance.Register<NotificationMessage>(this, GetMenuClicked);
+            _backButtonCommand = new RelayCommand(NavigateToMainPage);
         }
 
-        private void NotifyMe(NotificationMessage obj)
+        private void GetMenuClicked(NotificationMessage _menuName)
         {
-            _name = obj.Notification;
-            var item = data.GetMenu();
-            MenuClick = item.Where(x => x.Name == _name).FirstOrDefault();
+            _name = _menuName.Notification;
+            var item = _data.GetMenu();
+            MenuClick = item.FirstOrDefault(x => x.Name == _name);
         }
 
         public MenuModel MenuClick
@@ -47,15 +49,17 @@ namespace UWPAssignment.ViewModels
             }
         }
 
+     //   private RelayCommand _relayCommand;
+
         public RelayCommand BackButtonCommand
         {
             get
             {
-                return new RelayCommand(Navigate);
+                return _backButtonCommand;
             }
         }
 
-        private void Navigate()
+        private void NavigateToMainPage()
         {
             NavigationService.NavigateToMainPage();
         }

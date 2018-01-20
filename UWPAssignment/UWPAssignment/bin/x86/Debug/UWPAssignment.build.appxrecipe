@@ -10,19 +10,19 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>2b4ebc37-41a3-462f-900c-d4612a2cb8c4</PackageIdentityName>
     <PackageIdentityPublisher>CN=manish.kumar</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\manish.kumar\Documents\Visual Studio 2015\Projects\UWPAssignment\UWPAssignment\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\manish.kumar\Desktop\UWPAssignment1\UWPAssignment\UWPAssignment\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\manish.kumar\Documents\Visual Studio 2015\Projects\UWPAssignment\UWPAssignment\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\manish.kumar\Desktop\UWPAssignment1\UWPAssignment\UWPAssignment\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\manish.kumar\Documents\Visual Studio 2015\Projects\UWPAssignment\UWPAssignment\bin\x86\Debug\UWPAssignment.exe">
+    <AppxPackagedFile Include="C:\Users\manish.kumar\Desktop\UWPAssignment1\UWPAssignment\UWPAssignment\bin\x86\Debug\UWPAssignment.exe">
       <PackagePath>entrypoint\UWPAssignment.exe</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\manish.kumar\.nuget\packages\CommonServiceLocator\1.3.0\lib\portable-net4+sl5+netcore45+wpa81+wp8\Microsoft.Practices.ServiceLocation.dll">
@@ -346,62 +346,62 @@
     <AppxPackagedFile Include="C:\Users\manish.kumar\.nuget\packages\System.Xml.XmlSerializer\4.0.10\lib\netcore50\System.Xml.XmlSerializer.dll">
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\manish.kumar\Documents\Visual Studio 2015\Projects\UWPAssignment\UWPAssignment\Assets\menu1.jpg">
+    <AppxPackagedFile Include="C:\Users\manish.kumar\Desktop\UWPAssignment1\UWPAssignment\UWPAssignment\Assets\menu1.jpg">
       <PackagePath>Assets\menu1.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\manish.kumar\Documents\Visual Studio 2015\Projects\UWPAssignment\UWPAssignment\Assets\menu2.jpg">
+    <AppxPackagedFile Include="C:\Users\manish.kumar\Desktop\UWPAssignment1\UWPAssignment\UWPAssignment\Assets\menu2.jpg">
       <PackagePath>Assets\menu2.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\manish.kumar\Documents\Visual Studio 2015\Projects\UWPAssignment\UWPAssignment\Assets\menu3.jpg">
+    <AppxPackagedFile Include="C:\Users\manish.kumar\Desktop\UWPAssignment1\UWPAssignment\UWPAssignment\Assets\menu3.jpg">
       <PackagePath>Assets\menu3.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\manish.kumar\Documents\Visual Studio 2015\Projects\UWPAssignment\UWPAssignment\Assets\menu4.jpg">
+    <AppxPackagedFile Include="C:\Users\manish.kumar\Desktop\UWPAssignment1\UWPAssignment\UWPAssignment\Assets\menu4.jpg">
       <PackagePath>Assets\menu4.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\manish.kumar\Documents\Visual Studio 2015\Projects\UWPAssignment\UWPAssignment\Assets\menu5.jpg">
+    <AppxPackagedFile Include="C:\Users\manish.kumar\Desktop\UWPAssignment1\UWPAssignment\UWPAssignment\Assets\menu5.jpg">
       <PackagePath>Assets\menu5.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\manish.kumar\Documents\Visual Studio 2015\Projects\UWPAssignment\UWPAssignment\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\manish.kumar\Desktop\UWPAssignment1\UWPAssignment\UWPAssignment\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\manish.kumar\Documents\Visual Studio 2015\Projects\UWPAssignment\UWPAssignment\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\manish.kumar\Desktop\UWPAssignment1\UWPAssignment\UWPAssignment\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\manish.kumar\Documents\Visual Studio 2015\Projects\UWPAssignment\UWPAssignment\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\manish.kumar\Desktop\UWPAssignment1\UWPAssignment\UWPAssignment\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\manish.kumar\Documents\Visual Studio 2015\Projects\UWPAssignment\UWPAssignment\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\manish.kumar\Desktop\UWPAssignment1\UWPAssignment\UWPAssignment\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\manish.kumar\Documents\Visual Studio 2015\Projects\UWPAssignment\UWPAssignment\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\manish.kumar\Desktop\UWPAssignment1\UWPAssignment\UWPAssignment\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\manish.kumar\Documents\Visual Studio 2015\Projects\UWPAssignment\UWPAssignment\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\manish.kumar\Desktop\UWPAssignment1\UWPAssignment\UWPAssignment\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\manish.kumar\Documents\Visual Studio 2015\Projects\UWPAssignment\UWPAssignment\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\manish.kumar\Desktop\UWPAssignment1\UWPAssignment\UWPAssignment\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\manish.kumar\Documents\Visual Studio 2015\Projects\UWPAssignment\UWPAssignment\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\manish.kumar\Desktop\UWPAssignment1\UWPAssignment\UWPAssignment\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\manish.kumar\Documents\Visual Studio 2015\Projects\UWPAssignment\UWPAssignment\bin\x86\Debug\UWPAssignment.xr.xml">
+    <AppxPackagedFile Include="C:\Users\manish.kumar\Desktop\UWPAssignment1\UWPAssignment\UWPAssignment\bin\x86\Debug\UWPAssignment.xr.xml">
       <PackagePath>UWPAssignment.xr.xml</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\manish.kumar\Documents\Visual Studio 2015\Projects\UWPAssignment\UWPAssignment\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\manish.kumar\Desktop\UWPAssignment1\UWPAssignment\UWPAssignment\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\manish.kumar\Documents\Visual Studio 2015\Projects\UWPAssignment\UWPAssignment\bin\x86\Debug\Core\UWPAssignment.exe">
+    <AppxPackagedFile Include="C:\Users\manish.kumar\Desktop\UWPAssignment1\UWPAssignment\UWPAssignment\bin\x86\Debug\Core\UWPAssignment.exe">
       <PackagePath>UWPAssignment.exe</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>2b4ebc37-41a3-462f-900c-d4612a2cb8c4</PackageIdentityName>
     <PackageIdentityPublisher>CN=manish.kumar</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\manish.kumar\Documents\Visual Studio 2015\Projects\UWPAssignment\UWPAssignment\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\manish.kumar\Desktop\UWPAssignment1\UWPAssignment\UWPAssignment\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -25,16 +25,16 @@
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\manish.kumar\Documents\Visual Studio 2015\Projects\UWPAssignment\UWPAssignment\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\manish.kumar\Desktop\UWPAssignment1\UWPAssignment\UWPAssignment\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-01-18T05:48:57.717</Modified>
+      <Modified>2018-01-20T05:55:52.338</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\manish.kumar\Documents\Visual Studio 2015\Projects\UWPAssignment\UWPAssignment\bin\x86\Debug\UWPAssignment.exe">
+    <AppxPackagedFile Include="C:\Users\manish.kumar\Desktop\UWPAssignment1\UWPAssignment\UWPAssignment\bin\x86\Debug\UWPAssignment.exe">
       <PackagePath>entrypoint\UWPAssignment.exe</PackagePath>
-      <Modified>2018-01-18T05:48:56.924</Modified>
+      <Modified>2018-01-20T05:55:50.823</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\manish.kumar\.nuget\packages\CommonServiceLocator\1.3.0\lib\portable-net4+sl5+netcore45+wpa81+wp8\Microsoft.Practices.ServiceLocation.dll">
       <PackagePath>Microsoft.Practices.ServiceLocation.dll</PackagePath>
@@ -464,80 +464,80 @@
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
       <Modified>2015-07-22T17:41:12.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\manish.kumar\Documents\Visual Studio 2015\Projects\UWPAssignment\UWPAssignment\Assets\menu1.jpg">
+    <AppxPackagedFile Include="C:\Users\manish.kumar\Desktop\UWPAssignment1\UWPAssignment\UWPAssignment\Assets\menu1.jpg">
       <PackagePath>Assets\menu1.jpg</PackagePath>
       <Modified>2018-01-17T05:28:18.274</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\manish.kumar\Documents\Visual Studio 2015\Projects\UWPAssignment\UWPAssignment\Assets\menu2.jpg">
+    <AppxPackagedFile Include="C:\Users\manish.kumar\Desktop\UWPAssignment1\UWPAssignment\UWPAssignment\Assets\menu2.jpg">
       <PackagePath>Assets\menu2.jpg</PackagePath>
       <Modified>2018-01-17T05:28:18.281</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\manish.kumar\Documents\Visual Studio 2015\Projects\UWPAssignment\UWPAssignment\Assets\menu3.jpg">
+    <AppxPackagedFile Include="C:\Users\manish.kumar\Desktop\UWPAssignment1\UWPAssignment\UWPAssignment\Assets\menu3.jpg">
       <PackagePath>Assets\menu3.jpg</PackagePath>
       <Modified>2018-01-17T05:28:18.290</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\manish.kumar\Documents\Visual Studio 2015\Projects\UWPAssignment\UWPAssignment\Assets\menu4.jpg">
+    <AppxPackagedFile Include="C:\Users\manish.kumar\Desktop\UWPAssignment1\UWPAssignment\UWPAssignment\Assets\menu4.jpg">
       <PackagePath>Assets\menu4.jpg</PackagePath>
       <Modified>2018-01-17T05:28:18.296</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\manish.kumar\Documents\Visual Studio 2015\Projects\UWPAssignment\UWPAssignment\Assets\menu5.jpg">
+    <AppxPackagedFile Include="C:\Users\manish.kumar\Desktop\UWPAssignment1\UWPAssignment\UWPAssignment\Assets\menu5.jpg">
       <PackagePath>Assets\menu5.jpg</PackagePath>
       <Modified>2018-01-17T05:28:18.302</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\manish.kumar\Documents\Visual Studio 2015\Projects\UWPAssignment\UWPAssignment\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\manish.kumar\Desktop\UWPAssignment1\UWPAssignment\UWPAssignment\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
       <Modified>2018-01-16T14:21:40.919</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\manish.kumar\Documents\Visual Studio 2015\Projects\UWPAssignment\UWPAssignment\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\manish.kumar\Desktop\UWPAssignment1\UWPAssignment\UWPAssignment\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
       <Modified>2015-09-20T12:00:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\manish.kumar\Documents\Visual Studio 2015\Projects\UWPAssignment\UWPAssignment\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\manish.kumar\Desktop\UWPAssignment1\UWPAssignment\UWPAssignment\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-09-20T12:00:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\manish.kumar\Documents\Visual Studio 2015\Projects\UWPAssignment\UWPAssignment\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\manish.kumar\Desktop\UWPAssignment1\UWPAssignment\UWPAssignment\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-09-20T12:00:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\manish.kumar\Documents\Visual Studio 2015\Projects\UWPAssignment\UWPAssignment\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\manish.kumar\Desktop\UWPAssignment1\UWPAssignment\UWPAssignment\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-09-20T12:00:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\manish.kumar\Documents\Visual Studio 2015\Projects\UWPAssignment\UWPAssignment\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\manish.kumar\Desktop\UWPAssignment1\UWPAssignment\UWPAssignment\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-09-20T12:00:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\manish.kumar\Documents\Visual Studio 2015\Projects\UWPAssignment\UWPAssignment\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\manish.kumar\Desktop\UWPAssignment1\UWPAssignment\UWPAssignment\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-09-20T12:00:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\manish.kumar\Documents\Visual Studio 2015\Projects\UWPAssignment\UWPAssignment\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\manish.kumar\Desktop\UWPAssignment1\UWPAssignment\UWPAssignment\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-09-20T12:00:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\manish.kumar\Documents\Visual Studio 2015\Projects\UWPAssignment\UWPAssignment\bin\x86\Debug\UWPAssignment.xr.xml">
+    <AppxPackagedFile Include="C:\Users\manish.kumar\Desktop\UWPAssignment1\UWPAssignment\UWPAssignment\bin\x86\Debug\UWPAssignment.xr.xml">
       <PackagePath>UWPAssignment.xr.xml</PackagePath>
-      <Modified>2018-01-18T05:48:56.772</Modified>
+      <Modified>2018-01-19T13:51:01.063</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2017-11-04T06:41:35.912</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\manish.kumar\Documents\Visual Studio 2015\Projects\UWPAssignment\UWPAssignment\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\manish.kumar\Desktop\UWPAssignment1\UWPAssignment\UWPAssignment\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-01-18T05:48:57.404</Modified>
+      <Modified>2018-01-20T05:55:51.923</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\manish.kumar\Documents\Visual Studio 2015\Projects\UWPAssignment\UWPAssignment\bin\x86\Debug\Core\UWPAssignment.exe">
+    <AppxPackagedFile Include="C:\Users\manish.kumar\Desktop\UWPAssignment1\UWPAssignment\UWPAssignment\bin\x86\Debug\Core\UWPAssignment.exe">
       <PackagePath>UWPAssignment.exe</PackagePath>
-      <Modified>2018-01-18T05:48:57.714</Modified>
+      <Modified>2018-01-20T05:55:52.333</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

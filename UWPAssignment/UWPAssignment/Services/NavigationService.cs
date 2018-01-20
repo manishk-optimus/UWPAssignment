@@ -11,15 +11,15 @@ namespace UWPAssignment.Services
 {
     public class NavigationService
     {
+        private static Frame frame = Window.Current.Content as Frame;
+
         public static void NavigateToDescriptionPage()
         {
-            var frame = Window.Current.Content as Frame;
             frame.Navigate(typeof(DescriptionPage));
         }
 
         public static void NavigateToMainPage()
         {
-            var frame = Window.Current.Content as Frame;
             frame.Navigate(typeof(MainPage));
         }
     }

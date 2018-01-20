@@ -10,8 +10,9 @@ namespace UWPAssignment.Data
 {
     public class MenuData
     {
-        private ObservableCollection<MenuModel> _menu = new ObservableCollection<MenuModel>();
-        string[] image =
+        private List<MenuModel> _menu = new List<MenuModel>();
+
+        private string[] _image =
             {
             "ms-appx:///Assets/menu1.jpg",
             "ms-appx:///Assets/menu2.jpg",
@@ -20,13 +21,13 @@ namespace UWPAssignment.Data
             "ms-appx:///Assets/menu5.jpg"
              };
 
-        public ObservableCollection<MenuModel> GetMenu()
+        public List<MenuModel> GetMenu()
         {
             _menu.Add(new MenuModel
             {
                 Name = "Samosa",
                 Description = "The speciality of north india generally enjoyed with Tea",
-                ImageSource = new Uri(image[0], UriKind.Absolute),
+                ImageSource = new Uri(_image[0], UriKind.Absolute),
                 Price = 100
             });
 
@@ -34,7 +35,7 @@ namespace UWPAssignment.Data
             {
                 Name = "Idli",
                 Description = "The speciality of south india generally enjoyed with sambhar",
-                ImageSource = new Uri(image[1], UriKind.Absolute),
+                ImageSource = new Uri(_image[1], UriKind.Absolute),
                 Price = 125
             });
 
@@ -42,7 +43,7 @@ namespace UWPAssignment.Data
             {
                 Name = "Butter Chicken",
                 Description = "A delicious Lunch special",
-                ImageSource = new Uri(image[2], UriKind.Absolute),
+                ImageSource = new Uri(_image[2], UriKind.Absolute),
                 Price = 350
             });
 
@@ -50,7 +51,7 @@ namespace UWPAssignment.Data
             {
                 Name = "Chhole Bhature",
                 Description = "The speciality of north india",
-                ImageSource = new Uri(image[3], UriKind.Absolute),
+                ImageSource = new Uri(_image[3], UriKind.Absolute),
                 Price = 150
             });
 
@@ -58,7 +59,7 @@ namespace UWPAssignment.Data
             {
                 Name = "pizza",
                 Description = "Perfect for foodies",
-                ImageSource = new Uri(image[4], UriKind.Absolute),
+                ImageSource = new Uri(_image[4], UriKind.Absolute),
                 Price = 240
             });
 

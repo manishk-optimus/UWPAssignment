@@ -21,17 +21,23 @@ namespace UWPAssignment.ViewModels
         private bool notAvailable = false;
 
         private string message = "not available";
-        ObservableCollection<MenuModel> item = null;
+        List<MenuModel> item = null;
 
-
-        //ViewModelBase.MessengerInsta
-
-        public ObservableCollection<MenuModel> MenuItem
+        
+        public List<MenuModel> MenuItem
         {
             get
             {
                 item = menu.GetMenu();
                 return item;
+            }
+            set
+            {
+                if (item != value)
+                {
+                    item = value;
+                    RaisePropertyChanged("MenuItem");
+                }
             }
 
         }
@@ -41,6 +47,14 @@ namespace UWPAssignment.ViewModels
             get
             {
                 return message;
+            }
+            set
+            {
+                if (message != value)
+                {
+                    message = value;
+                    RaisePropertyChanged("Message");
+                }
             }
         }
 
@@ -86,7 +100,7 @@ namespace UWPAssignment.ViewModels
 
         public void FindResult()
         {
-            searchedItem = item.Where(x => x.Name == SearchValue).FirstOrDefault();
+            searchedItem = item.FirstOrDefault(x => x.Name == SearchValue);
 
             if (searchedItem == null)
             {
